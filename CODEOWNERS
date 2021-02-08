@@ -1,0 +1,19 @@
+# See https://github.com/blog/2392-introducing-code-owners
+# https://help.github.com/articles/about-codeowners/
+#
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+#
+# Note owners need write permissions to the repository!
+
+# These owners will be the default owners for everything in the repo.
+#*       @a_github_user
+
+# Order is important. The last matching pattern has the most precedence.
+
+*                                   @Innovation-Automation/enablement-services-admins
+/docs/teams/devops                  @Innovation-Automation/enablement-services-devops-leads
+/docs/teams/integrations            @Innovation-Automation/enablement-services-integrations-leads
+/docs/teams/labs                    @Innovation-Automation/enablement-services-labs-leads
+/docs/teams/securityandnetworks     @Innovation-Automation/enablement-services-securityandnetworks-leads
+/docs/teams/processmetrics          @lfranko2
