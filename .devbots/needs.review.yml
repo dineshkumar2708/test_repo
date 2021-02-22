@@ -1,0 +1,3 @@
+enabled: true
+label: "release-pipe"
+delay: 1 # Wait one day
